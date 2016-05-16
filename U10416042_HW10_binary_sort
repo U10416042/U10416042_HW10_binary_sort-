@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class BinaryTree{
    public static void main(String args[]){
       int counter, num, item, array[], first, last, middle;
@@ -25,7 +26,7 @@ class BinaryTree{
          if ( array[middle] < item )
             first = middle + 1;
          else if ( array[middle] == item ){
-            System.out.println(item + " found at location " + (middle + 1) + ".");
+            System.out.println(item + " is number " + (middle + 1) + "from least to greatest." );
             break;
          }
          else{
